@@ -13,7 +13,7 @@
 
                     <div class="hidden md:block">
                         <div class="ml-10 flex items-baseline space-x-4">
-                            {{ range .Site.Menus.main }}
+                            {{ range sort .Site.Menus.main "Name" "desc" }}
                             <a href="{{ .URL }}"
                                 class="px-3 py-2 rounded-md text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-200">{{ .Name }}</a>
                             {{ end }}
@@ -25,7 +25,7 @@
                     <div class="ml-3 relative flex items-center md:ml-6">
                         {{ range .Site.Menus.social }}
                         <a href="{{ .URL }}" class="navbar-item is-hidden-touch" title="{{ .Name }}">
-                            <span class="icon text-gray-600 hover:text-gray-800 text-3xl">
+                            <span class="icon text-gray-600 hover:text-gray-800 text-3xl px-3">
                                 {{ .Pre }}
                             </span>
                         </a>

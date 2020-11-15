@@ -1,17 +1,52 @@
 {{ define "main" }}
-<section class="section">
+<section>
     <article>
-        <div class="columns is-centered">
-            <div class="column max-800px">
-                <h1 class="title is-1">{{ .Title }}</h1>
-                <div class="content">
-                    {{ .Description }}
+        <div class="container mx-auto p-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2">
+                <div>
+                    <div class="flex items-center">
+                        <h1 class="text-5xl font-semibold mr-5">{{ .Title }}</h1>
+                        <div class="flex-column text-4xl text-gray-600 my-1">
+                            {{ if .Params.Github}}
+                            <a href="{{.Params.Github}}" class="mx-4 hover:text-gray-800">
+                                <i class='fab fa-github'></i>
+                            </a>
+                            {{ end}}
+                            {{ if .Params.AppStore}}
+                            <a href="{{.Params.AppStore}}" class="mx-4 hover:text-gray-800">
+                                <i class="fab fa-apple"></i>
+                            </a>
+                            {{ end}}
+                            <br>
+                        </div>
+                    </div>
+                    <div class="text-gray-600 py-5">
+                        {{ delimit .Params.TechStack " | " }}
+                    </div>
+
+                    <div class="grid grid-cols-2 sm:hidden m-5">
+                        {{ range .Params.Images}}
+                        <div class="p-5">
+                            <img src="{{ . }}" class="rounded-lg">
+                        </div>
+                        {{ end}}
+                    </div>
+
+                    <div class="markdown">
+                        {{ .Content }}
+                    </div>
                 </div>
-                <div class="content">
-                    {{ .Content }}
+
+                <div class="hidden sm:grid lg:grid-cols-2 m-5">
+                    {{ range .Params.Images}}
+                    <div class="p-5">
+                        <img src="{{ . }}" class="rounded-lg">
+                    </div>
+                    {{ end}}
                 </div>
             </div>
         </div>
     </article>
 </section>
+
 {{ end }}
