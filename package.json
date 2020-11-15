@@ -1,0 +1,25 @@
+{
+  "name": "tedb.dev",
+  "version": "1.0.0",
+  "description": "This directory is a brief example of a [Hugo](https://gohugo.io/) app that can be deployed with Vercel and zero configuration.",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tedbennett/ted.dev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tedbennett/ted.dev/issues"
+  },
+  "homepage": "https://github.com/tedbennett/ted.dev#readme",
+  "dependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss-cli": "^8.2.0",
+    "tailwindcss": "^1.9.6"
+  }
+}
