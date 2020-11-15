@@ -1,19 +1,13 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ .Title }}</title>
+<html lang="{{ .Site.LanguageCode }}">
+{{- partial "head.html" . -}}
 
-    {{ $styles := resources.Get "css/main.css" }}
-    {{ $styles = $styles | resources.PostCSS (dict "inlineImports" true) }}
+<body>
+    {{- partial "header.html" . -}}
+    <main>
+        {{- block "main" . }}{{- end }}
+    </main>
+    {{- partial "footer.html" . -}}
+</body>
 
-    {{ if hugo.IsProduction }}
-      {{ $styles = $styles | minify }}
-    {{ end }}
-
-    <link href="{{ $styles.Permalink }}" rel="stylesheet" />
-  </head>
-
-  <body>
-    {{ block "main" . }}{{ end }}
-  </body>
 </html>

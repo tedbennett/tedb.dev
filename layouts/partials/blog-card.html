@@ -1,0 +1,17 @@
+{{ $permalink := .Permalink }}
+<a href="{{ $permalink }}" class="m-5">
+    <div class="border-solid rounded-md flex-column border p-5 object-fill hover:shadow-md">
+        <!-- <div class="ml-4 "> -->
+            <div class="xs:flex-column sm:flex justify-between items-center">
+                <h4 class="text-2xl leading-6 font-medium text-gray-900">
+                    {{ .Title }}
+                </h4>
+                <p class="block text-base leading-6 text-gray-500">
+                    <time>{{ .PublishDate.Format "January 2, 2006" }}</time>
+                </p>
+            </div>
+            <p class="mt-2 text-base leading-6 text-gray-500">
+                {{ .Description }}
+            </p>
+    </div>
+</a>
