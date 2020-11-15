@@ -1,7 +1,6 @@
 baseURL: "https://tedb.dev"
 title: "tedb.dev"
 paginate: 5
-# theme: tedb-dev
 
 menu:
   main:
@@ -14,3 +13,4 @@ menu:
     - name: "Github"
       url: "https://www.github.com/tedbennett"
       pre: "<i class='fab fa-github'></i>"
+

@@ -6,7 +6,7 @@
             {{ .Content }}
 
         </div>
-        {{ range .Pages }}
+        {{ range .Pages.ByDate }}
         {{ partial "blog-card.html" . }}
         {{ end }}
     </div>
