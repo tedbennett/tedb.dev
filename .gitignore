@@ -3,5 +3,5 @@
 /node_modules
 /build
 /resources/_gen
-content/blog/leetcode-3.md
-content/blog/led-box.md
+/content/blog/leetcode-3.md
+/content/blog/led-box.md
