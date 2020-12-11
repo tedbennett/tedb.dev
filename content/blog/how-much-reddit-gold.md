@@ -2,8 +2,8 @@
 title: "How Much Reddit Gold?"
 date: 2020-12-11T18:05:11Z
 draft: true
-description: "Add Two Numbers"
-website: "www.howmuchreddit.gold"
+description: "Visualise a reddit post's awards"
+website: "http://www.howmuchreddit.gold"
 github: "https://www.github.com/tedbennett/how-much-reddit-gold"
 ---
 
