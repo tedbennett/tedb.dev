@@ -6,6 +6,19 @@
             <div class="text-center">
                 <h1 class="text-5xl font-semibold">{{ .Title }}</h1>
                 <p class="text-gray-600"><time>{{ .PublishDate.Format "January 2, 2006" }}</time></p>
+                <div class="flex-column text-4xl text-gray-600 my-1">
+                    {{ if .Params.Github}}
+                    <a href="{{.Params.Github}}" class="mx-4 hover:text-gray-800">
+                        <i class='fab fa-github'></i>
+                    </a>
+                    {{ end}}
+                    {{ if .Params.Website}}
+                    <a href="{{.Params.Website}}" class="mx-4 hover:text-gray-800">
+                        <i class="fas fa-code"></i>
+                    </a>
+                    {{ end}}
+                    <br>
+                </div>
             </div>
             <div class="markdown">
                 {{ .Content }}
