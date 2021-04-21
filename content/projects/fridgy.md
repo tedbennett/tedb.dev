@@ -10,8 +10,8 @@ techStack:
     - "UI Kit"
     - "Core Data"
 images:
-    - "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/5b/38/0a/5b380a14-5446-39da-603c-e9ec17580255/065e0f3f-18c6-4de7-aebd-22ae4da3e320_Simulator_Screen_Shot_-_iPhone_11_Pro_Max_-_2020-10-01_at_17.10.13.png/600x0w.png"
-    - "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/e8/e1/da/e8e1da99-1249-5c9e-93e5-598a9a7bba42/2ba0b109-33d5-427a-a3b6-b385d4551d8d_Simulator_Screen_Shot_-_iPhone_11_Pro_Max_-_2020-10-01_at_17.10.41.png/600x0w.png"
+    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/fridgy/fridgy-1.png"
+    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/fridgy/fridgy-2.png"
 ---
 
 Fridgy is an app to help you manage your fridge and prevent food waste, available on the App Store.

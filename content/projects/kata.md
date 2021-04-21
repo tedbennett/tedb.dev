@@ -10,9 +10,9 @@ techStack:
     - "SwiftUI"
     - "Core Data"
 images:
-    - "https://is5-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/9e/d5/7a/9ed57a75-fca9-e9f1-25b7-4011da4b8fa1/9ae5a187-3eee-459a-b706-3af12c9975ad_6.5-inch_Screenshot_1.png/600x0w.png"
-    - "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/1f/cf/f6/1fcff60f-64cd-d3d6-dc67-8b74aca10a19/53dd2d6f-67fe-41cf-9120-3c6ccd2b8ea2_6.5-inch_Screenshot_2.png/600x0w.png"
-    - "https://is3-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/61/0c/71/610c71d9-a890-d042-dc73-e10f0b5fcb9f/940804c5-6f1e-4bd9-894e-8cf221ded3aa_6.5-inch_Screenshot_3.png/600x0w.png"
+    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/kata/kata-1.png"
+    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/kata/kata-2.png"
+    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/kata/kata-3.png"
 ---
 
 Kata is a flashcard app aimed at language learning, available on the App Store.

@@ -6,7 +6,7 @@ icon: "fab fa-reddit"
 github: "https://github.com/tedbennett/how-much-reddit-gold"
 website: "http://www.howmuchreddit.gold"
 largeImages:
-    - "https://preview.redd.it/4sxz5ehgcl461.png?width=960&crop=smart&auto=webp&s=c44bbf99d3d0c09954e1be04911d5ca7408cbd81"
+    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/how-much-gold/how-much-reddit-gold.png"
 techStack: 
     - "React"
     - "Express"
