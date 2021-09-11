@@ -1,6 +1,6 @@
 ---
 title: "Fridgy"
-date: 2020-11-08T11:56:25Z
+date: 2021-09-11T11:56:25Z
 description: "Fridge organisation iOS app"
 icon: "fas fa-shopping-cart"
 github: "https://github.com/tedbennett/fridgy-iOS"
@@ -12,16 +12,15 @@ techStack:
 images:
     - "https://tedb-dev.s3.eu-west-2.amazonaws.com/fridgy/fridgy-1.png"
     - "https://tedb-dev.s3.eu-west-2.amazonaws.com/fridgy/fridgy-2.png"
+    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/fridgy/fridgy-3.png"
 ---
 
-Fridgy is an app to help you manage your fridge and prevent food waste, available on the App Store.
+Fridgy is an app to help you manage your fridge and shopping lists, available on the App Store.
 
 ### Description
 
-This app lets the user enter their fridge's contents and their expiration dates to keep track of when their food will expire. The food is sorted by what's going off soonest, and the user can create a shopping list from items in the app that they are running low on. The app also provides a (albeit simplistic) way to search for recipes based on what's in their fridge.
+This is a redesign of the first app I submitted to the App Store. It's much simpler and easier to use than it's previous version, and one I can actually see myself using regularly. The app features custom categories the user can create to organise the food in their fridge. The user can create a shopping lists, which automatically add items to the fridge when they are checked off.
 
 ### Future Work
 
-I'd really like to integrate Firebase with this app, both so that a household can share their fridge, and also to get access to barcode scanning. The biggest hurdle in using this app is the time it takes to actually enter food, and so streamlining this is a priority.
-
-This was the first app I created and submitted to the App Store. It has a few bugs and iOS 14 somewhat broke some functionality, but I'm keen to rebuild it with SwiftUI.
+I'm currently working on a backend (or perhaps CloudKit) to allow syncing of a fridge between multiple users, for use by people living in shared households.
