@@ -6,13 +6,12 @@ icon: "fab fa-reddit"
 github: "https://github.com/tedbennett/how-much-reddit-gold"
 website: "http://www.howmuchreddit.gold"
 largeImages:
-    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/how-much-gold/how-much-reddit-gold.png"
-techStack: 
-    - "React"
-    - "Express"
-    - "Heroku"
-    - "Bootstrap"
-
+  - "https://tedb-dev.s3.eu-west-2.amazonaws.com/how-much-gold/how-much-reddit-gold.png"
+techStack:
+  - "React"
+  - "Express"
+  - "Heroku"
+  - "Bootstrap"
 ---
 
 A simple web app to visualise a reddit post's awards.

@@ -5,14 +5,14 @@ description: "Fridge organisation iOS app"
 icon: "fas fa-shopping-cart"
 github: "https://github.com/tedbennett/fridgy-iOS"
 appStore: "https://apps.apple.com/gb/app/fridgly/id1514948934"
-techStack: 
-    - "iOS"
-    - "UI Kit"
-    - "Core Data"
+techStack:
+  - "iOS"
+  - "UI Kit"
+  - "Core Data"
 images:
-    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/fridgy/fridgy-1.png"
-    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/fridgy/fridgy-2.png"
-    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/fridgy/fridgy-3.png"
+  - "https://tedb-dev.s3.eu-west-2.amazonaws.com/fridgy/fridgy-1.png"
+  - "https://tedb-dev.s3.eu-west-2.amazonaws.com/fridgy/fridgy-2.png"
+  - "https://tedb-dev.s3.eu-west-2.amazonaws.com/fridgy/fridgy-3.png"
 ---
 
 Fridgy is an app to help you manage your fridge and shopping lists, available on the App Store.

@@ -4,10 +4,10 @@ date: 2020-11-15T19:38:35Z
 description: "Personal website built with Hugo"
 icon: "far fa-address-card"
 github: "https://github.com/tedbennett/tedb.dev"
-techStack: 
-    - "Hugo"
-    - "Tailwind CSS"
-    - "Vercel"
+techStack:
+  - "Hugo"
+  - "Tailwind CSS"
+  - "Vercel"
 ---
 
 My personal website, you're here now!

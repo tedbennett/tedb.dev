@@ -5,14 +5,14 @@ description: "Language learning flashcard iOS app"
 icon: "fas fa-language"
 github: "https://github.com/tedbennett/kata"
 appStore: "https://apps.apple.com/us/app/kata-language-flashcards/id1534113167"
-techStack: 
-    - "iOS"
-    - "SwiftUI"
-    - "Core Data"
+techStack:
+  - "iOS"
+  - "SwiftUI"
+  - "Core Data"
 images:
-    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/kata/kata-1.png"
-    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/kata/kata-2.png"
-    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/kata/kata-3.png"
+  - "https://tedb-dev.s3.eu-west-2.amazonaws.com/kata/kata-1.png"
+  - "https://tedb-dev.s3.eu-west-2.amazonaws.com/kata/kata-2.png"
+  - "https://tedb-dev.s3.eu-west-2.amazonaws.com/kata/kata-3.png"
 ---
 
 Kata is a flashcard app aimed at language learning, available on the App Store.
@@ -24,7 +24,8 @@ Kata is a simple flashcard app, similar to Anki. The main distinction is that Ka
 ### Future Work
 
 I cut back a few features I had previously been working on when I was trying to get this app ready for the App Store. Some of these included:
-  - Importing decks of cards, including from Anki's .apkg format
-  - Using Google Translate for translation suggestions when creating cards
-  - Improved statistics and historical test data
-  - An algorithm to test the user on their weakest cards
+
+- Importing decks of cards, including from Anki's .apkg format
+- Using Google Translate for translation suggestions when creating cards
+- Improved statistics and historical test data
+- An algorithm to test the user on their weakest cards

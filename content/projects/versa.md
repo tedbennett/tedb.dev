@@ -5,15 +5,15 @@ description: "iOS app to transfer music between services"
 icon: "fas fa-arrows-alt-h"
 github: "https://github.com/tedbennett/versa"
 appStore: "https://apps.apple.com/gb/app/versa/id1563552390"
-techStack: 
-    - "iOS"
-    - "SwiftUI"
-    - "Apple Music API"
-    - "Spotify API"
+techStack:
+  - "iOS"
+  - "SwiftUI"
+  - "Apple Music API"
+  - "Spotify API"
 images:
-    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/versa/IMG_0461.jpeg"
-    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/versa/IMG_0462.jpeg"
-    - "https://tedb-dev.s3.eu-west-2.amazonaws.com/versa/IMG_0463.jpeg"
+  - "https://tedb-dev.s3.eu-west-2.amazonaws.com/versa/IMG_0461.jpeg"
+  - "https://tedb-dev.s3.eu-west-2.amazonaws.com/versa/IMG_0462.jpeg"
+  - "https://tedb-dev.s3.eu-west-2.amazonaws.com/versa/IMG_0463.jpeg"
 ---
 
 Versa is an app to transfer music between Apple Music and Spotify
