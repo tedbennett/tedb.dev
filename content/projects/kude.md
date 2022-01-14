@@ -1,6 +1,6 @@
 ---
 title: "Kude"
-date: 2020-12-11T16:51:21Z
+date: 2022-01-14T16:51:21Z
 description: "Collaborative queues with Spotify"
 icon: "fa fa-music"
 github: "https://github.com/tedbennett/kude"
