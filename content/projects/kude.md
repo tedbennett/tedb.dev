@@ -5,6 +5,7 @@ description: "Collaborative queues with Spotify"
 icon: "fa fa-music"
 github: "https://github.com/tedbennett/kude"
 appStore: "https://apps.apple.com/gb/app/kude/id1604808276"
+website: "https://www.kude.app"
 images:
   - "https://tedb-dev.s3.eu-west-2.amazonaws.com/kude/kude-1.png"
   - "https://tedb-dev.s3.eu-west-2.amazonaws.com/kude/kude-2.png"
@@ -25,3 +26,7 @@ This app allows a user with Spotify Premium to create a session and invite other
 Built using SwiftUI and Firebase, this app interacts with the Spotify API via Cloud Functions.
 
 This app will be expanded soon to allow users to also use the Apple Music streaming service too, which allows for more interactions with music queue.
+
+### Web App
+
+I've also created a React app so that users can access the app from platforms other than iOS. At the moment users can't create sessions, only join them, but besides that it can be used in the exact same way as the app.
